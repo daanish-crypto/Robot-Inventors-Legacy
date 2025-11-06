@@ -2,7 +2,7 @@
 The OFFICIAL github page for Robot Inventors Legacy
 
 
-<img src="[https://github.com/RobotInventors/Robot-Inventors-Legacy/blob/main/Logo.png](https://github.com/daanish-crypto/Robot-Inventors-Legacy/blob/main/assets/team_logo.png)" alt="Logo" style="width:500px; height:500px;">
+<img src="https://github.com/daanish-crypto/Robot-Inventors-Legacy/blob/main/assets/team_logo.png" alt="Logo" style="width:500px; height:500px;">
 
 
 We are a team that specializes in Robocup Rescue Line
