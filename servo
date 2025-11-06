@@ -1,0 +1,24 @@
+import time
+from pyb import Servo
+
+s2 = Servo(2)  # S1 = P7
+
+# Function to rotate approx degrees
+def rotate_deg(degrees, speed=50):
+    # How long to run motor to rotate ~1 degree (tune this!)
+    sec_per_degree = 0.008  # 8ms per degree = example
+
+    direction = 1 if degrees > 0 else -1
+    s2.speed(direction * speed)
+
+    time.sleep(abs(degrees) * sec_per_degree)
+
+    s2.speed(0)  # stop
+
+# Example: Turn ~180 degrees forward
+rotate_deg(180)
+time.sleep(1)
+
+# Example: Turn ~90 degrees reverse
+rotate_deg(-90)
+time.sleep(1)
