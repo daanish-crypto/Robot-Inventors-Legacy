@@ -1,6 +1,6 @@
 # Robot-Inventors-Legacy
 The OFFICIAL github page for Robot Inventors Legacy
-
+![Logo](https://github.com/RobotInventors/Robot-Inventors-Legacy/blob/main/Logo.png)
 We are a team that specializes in Robocup Rescue Line
 
 # Past Achievements
